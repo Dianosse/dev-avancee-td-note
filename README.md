@@ -12,3 +12,6 @@ La taille par défaut est 2048, pour créer une clef de 4096 bits il faut faire 
 
 openssl rsa -in server.key -pubout -out server.pub
 
+## 2.1
+
+openssl genrsa -des3 -out server_des3.key 4096
